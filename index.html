@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vertical Page Split</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+       /* Custom styles */
+    .container-fluid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .left-side,
+    .right-side {
+      flex: 0 0 48%; /* Set a fixed width for both sides */
+      padding: 20px;
+      border: 1px solid #012237; /* Add border to both sides */
+      border-radius: 5px;
+      margin-bottom: 20px; /* Add margin between sections */
+    }
+    .left-side {
+      background-color: #012237;
+      color: white;
+    }
+    .right-side {
+      background-color: #f9f9f9;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .center-header {
+      text-align: center;
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      padding: 10px 0;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+.header {
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Left side -->
+      <div class="col-lg-4 left-side">
+        <header class="header">
+          <h1>Tejas Setty</h1>
+          <p>Student</p>
+        </header>
+        <div class="contact-info">
+          <p class="text-center">
+            <span><i class="fas fa-envelope"></i> tejassetty2001@gmail.com</span>
+          </p>
+          <p class="text-center">
+            <span><i class="fas fa-phone"></i> 7204030642</span>
+            <span><i class="fas fa-map-marker-alt"></i> Bangalore, India</span>
+          </p>
+        </div>
+        <section class="content-section">
+          <h2 class="center-header"><i class='fas fa-brain' style='font-size:24px'></i> Skills</h2>
+          <ul>
+            <li>SQL</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C Programming Language</li>
+            <li>C++</li>
+            <li>Data Structures and Algorithms</li>
+          </ul>
+        </section>
+        <section class="content-section">
+          <h2 class="center-header"><i class='fas fa-graduation-cap' style='font-size:24px'></i> Education</h2>
+          <ul>
+            <li>Sahyadri College of Engineering and Management, BE in Computer Science, 10/2020 – present, Mangalore, India</li>
+            <li>Deeksha Miranda Composite PU College, PUC, 2018 – 2020, Bangalore, India</li>
+            <li>CMR High School, 2008 – 2018, Bangalore, India</li>
+          </ul>
+        </section>
+        <section class="content-section">
+          <h2 class="center-header"><i class='fas fa-guitar' style='font-size:24px'></i> Interests</h2>
+          <ul>
+            <li>Every Kind Of Sport</li>
+            <li>Capturing Moments</li>
+            <li>Exploring Distant Lands</li>
+            <li>Getting Lost in Good Books</li>
+          </ul>
+        </section>
+      </div>
+      <!-- Right side -->
+      <div class="col-lg-8 right-side">
+        <header class="center-header">
+          <h2><i class='fas fa-address-card' style='font-size:24px'></i>Profile</h2>
+        </header>
+        <section class="content-section">
+          <p>Enthusiastic and ambitious student pursuing a Degree in computer science. Possessing a solid foundation gained through coursework and extracurricular activities. Eager to leverage my skills and passion for Industry to contribute positively to a dynamic team. Proven ability to adapt quickly, learn on the fly, and thrive in fast-paced environments. Ready to take on new challenges and make a valuable impact.</p>
+        </section>
+        <header class="center-header">
+          <h2><i class="fas fa-folder-open"></i>Projects</h2>
+        </header>
+        <section class="content-section">
+          <div>
+            <h3>Fake Product Detection System Using Deep Learning</h3>
+            <p>11/2023 – present</p>
+            <ul>
+              <li>Significance of Digital Images: Digital images are vital across fields like medicine, journalism, and forensics, aiding communication and analysis.</li>
+              <li>Concern of Image Forgery: Widespread access to editing tools raises worries about image authenticity, especially in forensic investigations.</li>
+              <li>Proposed Solution with CNNs: Utilizing Convolutional Neural Networks (CNNs), the system aims to classify images as genuine or fake by extracting meaningful features.</li>
+              <li>Feature Extraction and Classification: CNNs learn intricate patterns from image data to discern tampering, ensuring accurate classification.</li>
+              <li>Impact Across Fields: The solution bolsters authenticity in medical imaging, journalism, and other domains reliant on digital imagery, enhancing trust and reliability.</li>
+            </ul>
+          </div>
+          <div>
+            <h3>BUS FOOD DELIVERY APP</h3>
+            <p>05/2023 – 07/2023</p>
+            <ul>
+              <li>Enhanced Travel Experience: The Bus Food Delivery App aims to improve the travel experience for bus passengers by offering a convenient platform for ordering food directly to their seats.</li>
+              <li>User-Friendly Interface: Passengers can easily browse menus, place 
+    orders, and make secure payments through the app's intuitive interface.</li>
+              <li>Efficient Delivery: Leveraging technology, the app ensures prompt 
+    delivery of freshly prepared meals to passengers' seats, enhancing 
+    convenience during the journey.</li>
+              <li>Diverse Menu Options: With a diverse menu catering to various 
+    culinary preferences, passengers have ample choices to suit their tastes.</li>
+    <li>Convenience and Enjoyment: By providing hassle-free food delivery, 
+    the app adds
+ convenience and enjoyment to bus journeys, allowing passengers to relax and savor their meals onboard</li>
+            </ul>
+          </div>
+          <div>
+            <h3>CASINO MANAGEMENT SYSTEM</h3>
+            <p>01/2023 – 03/2023</p>
+            <ul>
+              <li>Objective: Developed using Java and MySQL, the system aims to streamline casino operations by offering solutions for user registration, account management, and real-time gaming activity monitoring.</li>
+              <li>User-Friendly: With intuitive interfaces, the system simplifies user registration, account management,</li>
+              <li>Secure Storage: Built on MySQL, it ensures secure and organized storage of user data and transactions, enhancing data integrity and confidentiality.</li>
+              <li>Robust: Leveraging Java and MySQL, it delivers strong functionality to meet diverse casino management needs.</li>
+              <li>Enhanced Experience: By efficiently managing casino operations, it enhances the gaming
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and Font Awesome JS (if needed) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
